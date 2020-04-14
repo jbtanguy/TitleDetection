@@ -80,8 +80,8 @@ if __name__ == "__main__":
 		mode_syn = config['train_params']['mode']
 		model_path_syn = config['train_params']['model_path']
 		for freq in ['abs', 'rel']:
-			for l in range(1, 11):
-				for s in range(1, 11):
+			for i in range(1, 11):
+				for j in range(1, 11):
 					if j >= i:
 						config['train_params']['mode'] = mode_syn.replace('_n,', '_'+str(i)+',').replace(',N', ','+str(j)).replace('freq', freq)
 						config['train_params']['model_path'] = model_path_syn.replace('_n,', '_'+str(i)+',').replace(',N', ','+str(j)).replace('freq', freq)
@@ -90,8 +90,10 @@ if __name__ == "__main__":
 							classifiers.append(['MNB', MultinomialNB()])
 						if 'DT10' in config['train_params']['algos']:
 							classifiers.append(['DT10', DecisionTreeClassifier(max_depth=10)])
-						if 'RF' in config['train_params']['algos']:
-							classifiers.append(['RF', RandomForestClassifier(max_depth=10)]) #nb_estimator = nb arbres
+						if 'RF50' in config['train_params']['algos']:
+							classifiers.append(['RF50', RandomForestClassifier(max_depth=50)]) #nb_estimator = nb arbres
+						if 'RF100' in config['train_params']['algos']:
+							classifiers.append(['RF100', RandomForestClassifier(max_depth=100)]) #nb_estimator = nb arbres
 						if 'SVM' in config['train_params']['algos']:
 							classifiers.append(['SVM', svm.SVC()])
 						# b. Data preparation
@@ -125,16 +127,15 @@ if __name__ == "__main__":
 	if config['processus']['test_model'] == True:
 		
 
-		algo_type = '50RF10'
+		algo_type = 'RF100'
 
 
 
 		for model in config['test_params']['models']:
 			if algo_type not in model:
 				continue
-			if 'abs' in model:
-				continue
-			config['test_params']['mode'] = model.replace('./models/fintoc_train_pos_', '').replace('_'+algo_type+'.model', '')
+
+			config['test_params']['mode'] = model.replace('./models/deft2011_train_', '').replace('_'+algo_type+'.model', '')
 			loaded_obj = pickle.load(open(model, 'rb'))
 			loaded_model, desc = loaded_obj[0], loaded_obj[1]
 			corpus = open_json(config['test_params']['corpus_ref_path'])
@@ -166,15 +167,15 @@ if __name__ == "__main__":
 				f = str(round(res[2][i], 4))
 				nb = str(round(res[3][i], 4))
 				if i == 0:
-					ligne = name + '\tfintoc test\t' + acc + '\t' + l + '\t' + p + '\t' + r + '\t' + f + '\t' + nb
+					ligne = name + '\tfdeft2011 test\t' + acc + '\t' + l + '\t' + p + '\t' + r + '\t' + f + '\t' + nb
 				else:
-					ligne = '\tfintoc test\t\t' + l + '\t' + p + '\t' + r + '\t' + f + '\t' + nb
+					ligne = '\tdeft2011 test\t\t' + l + '\t' + p + '\t' + r + '\t' + f + '\t' + nb
 				ligne = ligne.replace('.', ',')
 				print(ligne)
 			# Macro moyenne
 			p, r, f = precision_recall_fscore_support(y_ref, y_pred, average='macro')[0],precision_recall_fscore_support(y_ref, y_pred, average='macro')[1], precision_recall_fscore_support(y_ref, y_pred, average='macro')[2]
 			p, r, f = str(round(p, 4)), str(round(r, 4)), str(round(f, 4))
-			ligne = '\tfintoc test\t\tMacromoyenne\t' + p + '\t' + r + '\t' + f + '\t'
+			ligne = '\tdeft2011 test\t\tMacromoyenne\t' + p + '\t' + r + '\t' + f + '\t'
 			print(ligne.replace('.', ','))
 
 	if config['processus']['use_model'] == True:

@@ -1,17 +1,16 @@
 processus:
-  train_model: False
+  train_model: True
   test_model: False
   use_model: False
-  use_model_only_proba: True
+  use_model_only_proba: False
 nlp: en_core_web_sm
 train_params:
   CV: False
   algos:
-    - RF50
-    - 50RF10
+    - RF100
   mode: ngramChar_freq_n,N
-  corpus_path: ./corpora/fintoc_train_pos.json
-  model_path: ./models/fintoc_train_pos_ngramChar_freq_n,N.model
+  corpus_path: ./corpora/deft2011_train.json
+  model_path: ./models/deft2011_train_ngramChar_freq_n,N.model
 test_params:
   mode: rstr_abs_3,0.5
   model: ./models/essai_rstr_MNB.model
