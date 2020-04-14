@@ -1,0 +1,28 @@
+processus:
+  train_model: False
+  test_model: False
+  use_model: False
+  use_model_only_proba: True
+nlp: en_core_web_sm
+train_params:
+  CV: False
+  algos:
+    - RF50
+    - 50RF10
+  mode: ngramChar_freq_n,N
+  corpus_path: ./corpora/fintoc_train_pos.json
+  model_path: ./models/fintoc_train_pos_ngramChar_freq_n,N.model
+test_params:
+  mode: rstr_abs_3,0.5
+  model: ./models/essai_rstr_MNB.model
+  corpus_ref_path: ./corpora/essai.json
+use_model_params:
+  mode: ngramPOS_abs
+  model: ./models/essai_ngramPOS_DT10.model
+  corpus_unLabelled_path: ./corpora/essai.json
+  corpus_labelled_path: ./corpora/essai_ngramPOS_abs_annotations.txt
+use_model_only_proba_params:
+  mode: ngramChar_abs_1,2
+  model: ./models/fintoc_train_pos_ngramChar_abs_1,2_RF50.model
+  corpus_unLabelled_path: ./corpora/fintoc2020_en.json
+  corpus_labelled_path: ./application_models/fintoc2020_en_ngramChar_abs_1,2_RF50_proba.txt
