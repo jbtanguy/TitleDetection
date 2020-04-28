@@ -61,62 +61,77 @@ def prepare_data(corpus_train, method):
 
 if __name__ == "__main__":
 	# 1. CONFIG: corpora, methods and classifiers
+	# CONFIG ENGLISH
 	config = {
 	'train_corpora': ['./corpora/english/fintoc2019_en_train.json', './corpora/english/fintoc2019_en_train_test.json', './corpora/english/fintoc2020_en_train.json', './corpora/english/fintoc2019_en_train_test_fintoc2020_en_train.json'],
 	'dev_corpus': './corpora/english/fintoc2020_en_dev.json',
 	'test_corpus': './corpora/english/fintoc2020_en_test.json',
-	'methods': ['B1', 'B2', 'B3', 'B4', 'B5', 'B6'],#, 'ngramChar_abs_n,N', 'ngramChar_rel_n,N'],
+	'methods': ['ngramChar_abs_n,N', 'ngramChar_rel_n,N'],
 	'classifiers': [('RF50', RandomForestClassifier(max_depth=50))],
 	'models_dir': './models/english/',
-	'models_annots_dir': './models_annots/'
+	'models_annots_dir': './models_annots/english/'
 	}
+	""" CONFIG FRENCH
+	config = {
+	'train_corpora': ['./corpora/french/deft2011_train.json', './corpora/french/deft2011_train_test.json', './corpora/french/deft2011_train_test_fintoc2020_fr_train.json', './corpora/french/fintoc2020_fr_train.json'],
+	'dev_corpus': './corpora/french/fintoc2020_fr_dev.json',
+	'test_corpus': './corpora/french/fintoc2020_fr_test.json',
+	'methods': ['ngramChar_abs_n,N', 'ngramChar_rel_n,N'],
+	'classifiers': [('RF50', RandomForestClassifier(max_depth=50))],
+	'models_dir': './models/french/',
+	'models_annots_dir': './models_annots/french/'
+	}"""
 
 	for train_corpus in config['train_corpora']:
 		dev_corpus = config['dev_corpus']
 		test_corpus = config['test_corpus']
-		for method in config['methods']:
-			for classif in config['classifiers']:
-				classif_name = classif[0]
-				classif_obj = classif[1]
-				print('-'*50)
-				print(train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name)
-				print('-'*50)
-				# 1. Model training
-				# a. data preparation
-				print('Learning...')
-				X_train, y_train, IDs_train, desc = prepare_data(train_corpus, method)
-				if 'ngramChar' in method:
-					dictvectorizer = DictVectorizer()
-					X_train = dictvectorizer.fit_transform(X_train)
-				# b. learning
-				model = classif_obj.fit(X_train, y_train)
-				# c. save the model
-				model_name = config['models_dir'] + train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model'
-				outFile = open(model_name, 'wb')
-				pickle.dump([model, desc], outFile)
-				print('Model saved.')
-				# 2. Annotation dev and test corpus
-				print('Labeling...')
-				for corpus_to_test in [dev_corpus, test_corpus]:
-					corpus = open_json(corpus_to_test)
-					if 'rstr' in method:
-						_, matrix = get_matrix_rstr(method, corpus, desc_arg=desc)
-						v = DictVectorizer()
-						X = v.fit_transform(matrix)
-						y_pred = model.predict(X)[:-1]
-					else:
-						vectors = [vectorize(infos, method, desc, test=True)[0] for instance_id, infos in corpus.items()]
-						if 'ngramChar' in method:
-							for num_desc in desc.values():
-								if num_desc not in vectors[0]:
-									vectors[0][num_desc] = 0
-							dictvectorizer = DictVectorizer() # ii. Transformation en sparse matrix
-							vectors = dictvectorizer.fit_transform(vectors)
-						y_pred = model.predict(vectors)
-					ids = [id for id in list(corpus.keys())]
-					outFile_path = config['models_annots_dir'] + corpus_to_test.split('/')[-1].replace('.json', '') + '__' + train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model' + '.txt'
-					outFile = io.open(outFile_path, mode='w', encoding='utf-8')
-					for i in range(len(corpus.keys())):
-						outFile.write(ids[i] + '\t' + y_pred[i] + '\n')
-					outFile.close()
-					print(corpus_to_test.split('/')[-1].replace('.json', '') + ' : done.')
+		for mode in config['methods']:
+			for i in range(2, 11):
+				for j in range(2, 11):
+					if i <= j:
+						method = mode.replace('_n,', '_'+str(i)+',').replace(',N',','+str(j))
+						for classif in config['classifiers']:
+							classif_name = classif[0]
+							classif_obj = classif[1]
+							print('-'*50)
+							print(train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name)
+							print('-'*50)
+							# 1. Model training
+							# a. data preparation
+							print('Learning...')
+							X_train, y_train, IDs_train, desc = prepare_data(train_corpus, method)
+							if 'ngramChar' in method:
+								dictvectorizer = DictVectorizer()
+								X_train = dictvectorizer.fit_transform(X_train)
+							# b. learning
+							model = classif_obj.fit(X_train, y_train)
+							# c. save the model
+							model_name = config['models_dir'] + train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model'
+							outFile = open(model_name, 'wb')
+							pickle.dump([model, desc], outFile)
+							print('Model saved.')
+							# 2. Annotation dev and test corpus
+							print('Labeling...')
+							for corpus_to_test in [dev_corpus, test_corpus]:
+								corpus = open_json(corpus_to_test)
+								if 'rstr' in method:
+									_, matrix = get_matrix_rstr(method, corpus, desc_arg=desc)
+									v = DictVectorizer()
+									X = v.fit_transform(matrix)
+									y_pred = model.predict(X)[:-1]
+								else:
+									vectors = [vectorize(infos, method, desc, test=True)[0] for instance_id, infos in corpus.items()]
+									if 'ngramChar' in method:
+										for num_desc in desc.values():
+											if num_desc not in vectors[0]:
+												vectors[0][num_desc] = 0
+										dictvectorizer = DictVectorizer() # ii. Transformation en sparse matrix
+										vectors = dictvectorizer.fit_transform(vectors)
+									y_pred = model.predict(vectors)
+								ids = [id for id in list(corpus.keys())]
+								outFile_path = config['models_annots_dir'] + corpus_to_test.split('/')[-1].replace('.json', '') + '__' + train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model' + '.txt'
+								outFile = io.open(outFile_path, mode='w', encoding='utf-8')
+								for i in range(len(corpus.keys())):
+									outFile.write(ids[i] + '\t' + y_pred[i] + '\n')
+								outFile.close()
+								print(corpus_to_test.split('/')[-1].replace('.json', '') + ' : done.')
