@@ -1,6 +1,7 @@
 import pickle
 import json
 import io
+import os
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.tree import DecisionTreeClassifier
@@ -60,7 +61,7 @@ if __name__ == "__main__":
 	'train_corpora': ['./corpora/english/fintoc2019_en_train.json', './corpora/english/fintoc2019_en_train_test.json', './corpora/english/fintoc2020_en_train.json', './corpora/english/fintoc2019_en_train_test_fintoc2020_en_train.json'],
 	'dev_corpus': './corpora/english/fintoc2020_en_dev.json',
 	'test_corpus': './corpora/english/fintoc2020_en_test.json',
-	'methods': ['ngramChar_'+freq+'_'+str(i)+','+str(j) for i in range(2, 11) for j in range(2, 11) for freq in ['abs', 'rel'] if i <= j],
+	'methods': ['ngramChar_'+freq+'_'+str(i)+','+str(j) for i in range(1, 5) for j in range(1, 5) for freq in ['abs', 'rel'] if i <= j],
 	'classifiers': [('RF50', RandomForestClassifier(max_depth=50))],
 	'models_dir': './models/english/',
 	'models_annots_dir': './models_annots/english/'
@@ -75,7 +76,7 @@ if __name__ == "__main__":
 	'models_dir': './models/french/',
 	'models_annots_dir': './models_annots/french/'
 	}"""
-
+	
 	for train_corpus in config['train_corpora']:
 		dev_corpus = config['dev_corpus']
 		test_corpus = config['test_corpus']
@@ -83,9 +84,14 @@ if __name__ == "__main__":
 			for classif in config['classifiers']:
 				classif_name = classif[0]
 				classif_obj = classif[1]
+				model_name = train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model'
 				print('-'*50)
-				print(train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name)
+				print(model_name)
 				print('-'*50)
+				if model_name in os.listdir(config['models_dir']):
+					print('Learning and labeling already done.', end='\n\n\n\n')
+					continue
+				
 				# 1. Model training
 				# a. data preparation
 				print('Learning...')
@@ -96,8 +102,8 @@ if __name__ == "__main__":
 				# b. learning
 				model = classif_obj.fit(X_train, y_train)
 				# c. save the model
-				model_name = config['models_dir'] + train_corpus.split('/')[-1].replace('.json', '') + '_' + method + '_' + classif_name + '.model'
-				outFile = open(model_name, 'wb')
+				model_path = config['models_dir'] + model_name
+				outFile = open(model_path, 'wb')
 				pickle.dump([model, desc], outFile)
 				print('Model saved.')
 				# 2. Annotation dev and test corpus
