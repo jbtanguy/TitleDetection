@@ -1,0 +1,1512 @@
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 79.70714449882507 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 84.40637755393982 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 275.9404683113098 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 268.55212569236755 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 660.1024837493896 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 657.8548362255096 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1282.1031618118286 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1465.213224887848 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2477.832282781601 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3129.744074344635 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4463.6561007499695 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 5963.890394687653 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 211.26390647888184 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 200.86382865905762 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 518.2951624393463 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 565.3043422698975 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1059.998182296753 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1253.6548192501068 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2154.684177875519 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2673.454330444336 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3960.9130873680115 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 5120.98299574852 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 248.07112169265747 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 285.7820243835449 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 644.903993844986 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 818.1850299835205 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1522.7423503398895 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1992.7595281600952 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2958.903421640396 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4006.665329694748 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 317.54865169525146 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 413.15426802635193 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 986.5973544120789 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1283.2829005718231 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2213.362245082855 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3120.895569086075 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 425.43271470069885 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 585.8824090957642 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1543.335574388504 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2048.122768640518 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_abs_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 690.8754208087921 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_ngramChar_rel_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 948.2219200134277 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 99.95396304130554 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 102.97188568115234 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 323.82027888298035 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 314.6793110370636 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 747.7910633087158 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 749.2107136249542 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1496.6872401237488 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1645.9020054340363 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2928.7031598091125 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3687.0541620254517 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 5392.961201667786 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6773.209781885147 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 243.68517804145813 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 231.2124364376068 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 612.8401119709015 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 634.2840359210968 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1291.7057547569275 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1402.095692396164 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2544.315044403076 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3170.083427667618 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4717.9681668281555 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6010.937522411346 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 296.25221610069275 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 328.9997236728668 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 778.135945558548 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 952.0754096508026 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1869.226968050003 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2431.773421049118 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3632.134472846985 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4853.033373594284 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 384.3565363883972 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 471.110937833786 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1224.5483465194702 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1586.273742198944 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2727.3081550598145 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3755.5726146698 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 500.99958324432373 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 713.9749858379364 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1774.1358966827393 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2415.1964344978333 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_abs_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 843.9526262283325 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_ngramChar_rel_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1131.0150396823883 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 366.8415267467499 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 369.62846851348877 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 929.8918998241425 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 883.6986906528473 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1721.9749009609222 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1735.1383783817291 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3287.5963804721832 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3600.0000767707825 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6174.63773393631 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 7590.291609764099 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 10456.993742465973 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 12559.786631584167 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 645.6280174255371 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 615.1896846294403 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1286.7575936317444 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1405.0509915351868 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2509.8781881332397 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3051.833201646805 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 5053.972076892853 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6544.615819692612 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 9025.447106838226 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 11551.355530261993 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 580.8729472160339 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 674.5092008113861 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1543.876809835434 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1901.8865134716034 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3517.204355955124 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4717.340511798859 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6859.8969259262085 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 8914.60939359665 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 675.3097653388977 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 942.762050151825 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2279.2206568717957 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3141.6938705444336 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4852.40759396553 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 6688.899134635925 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1023.1397457122803 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1461.247543334961 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 3224.43594789505 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 4469.02671456337 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_abs_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1493.6437706947327 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2019_en_train_test_fintoc2020_en_train_ngramChar_rel_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2117.803457736969 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 147.30522346496582 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,1_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 144.76388907432556 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 252.86903500556946 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 226.53980016708374 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 365.32245564460754 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 322.5245795249939 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 538.8842985630035 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 559.8310399055481 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 961.2050793170929 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1216.2577948570251 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1604.2799870967865 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_1,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 2136.788820743561 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 181.35809063911438 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_2,2_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 155.32976031303406 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 258.09437704086304 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_2,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 251.7072856426239 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 405.8515856266022 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_2,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 479.05373883247375 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 816.2668561935425 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_2,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1073.613677740097 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1456.9574077129364 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_2,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1921.4170227050781 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 120.54652261734009 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_3,3_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 123.29661965370178 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 233.58930778503418 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_3,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 281.773316860199 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 543.3448312282562 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_3,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 736.3043894767761 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1037.092673778534 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_3,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1431.9697613716125 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 110.06027483940125 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_4,4_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 137.73661851882935 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 328.0184676647186 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_4,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 479.2469961643219 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 712.4880514144897 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_4,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 1131.7315692901611 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 149.1195125579834 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_5,5_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 225.90794682502747 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 482.63682556152344 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_5,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 754.2829339504242 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_abs_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 220.06579780578613 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
+--------------------------------------------------
+fintoc2020_en_train_ngramChar_rel_6,6_RF50.model
+--------------------------------------------------
+Learning...
+--- Temps d apprentissage : 334.2518584728241 secondes ---
+Model saved.
+Labeling...
+fintoc2020_en_dev : done.
+fintoc2020_en_test : done.
